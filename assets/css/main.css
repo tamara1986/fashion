@@ -1,0 +1,522 @@
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 1px;
+	visibility: hidden;
+}
+body{
+	font-family: 'Montserrat';
+
+}
+.glavni_kontejner{
+	min-height: 500px;
+}
+.card-footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+.moj_profil{
+	margin-bottom: 30px;
+	padding: 2%;
+
+}
+.navbar-nav{
+	float: right;
+}
+nav#glavni {
+	
+	background-color: #FFE9E3;
+}
+nav#glavni a{
+	color: grey;
+}
+.nav-pills .nav-link{
+	border-radius: 0px !important;
+}
+
+/*.nav-pills{
+	margin-top: 55px;
+}*/
+.nav-pills > .nav-item >a:hover,
+.nav-pills > .nav-item >a:focus{
+	background-color:white ;
+	color:black;
+}
+.nav-pills > .nav-item >a{
+	background-color: #E4E4E4;
+	color: white;
+}
+.form-inline,
+.my-lg-0{
+	display: block;
+	float: right;
+}
+.moj_profil{
+	background-color: white;
+}
+.bg-dark{
+	background-color: #545b62 !important;
+}
+.add_product{
+	text-decoration: none;
+	color: white;
+}
+.add_product:hover{
+	color:white;
+}
+.slika img{
+	display: block;
+	width: 75%;
+	height: 250px;
+	margin: 0 auto;
+
+
+}
+.card-body{
+	text-align: center;
+}
+
+.ostavi_utisak div{
+	width: 100%;
+	
+}
+.ostavi_utisak  img{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+.kartica{
+	margin: 40px auto 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.postavke{
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+.dodaj_proizvod{
+	width: 70%;
+	margin: 0 auto;
+}
+.dodaj_proizvod_h1{
+	text-align: center;
+}
+.mojProizvod{
+	display: block;
+	margin: 0 auto !important;
+}
+.red{
+	margin-top: 20px;
+}
+.slajder_home{
+	height: 500px !important;
+}
+.razgovor .table .img {
+	width: 100px;
+	height: 100px;
+
+}
+
+.razgovor .table .img img{
+	display: block;
+	width: 100%;
+	
+}
+.navbar-expand-md{
+	justify-content: space-between !important;
+}
+.dodaj_novi .btn{
+	background-color: #E4E4E4;
+}
+.slika_slajder{
+	height: 200px;
+}
+.login_form{
+	display: block;
+	width: 40%;
+	margin: 0 0 0 2%;
+	/*background-color: white;*/
+	padding: 2%;
+	
+}
+.login_form .btn-primary{
+	background-color:#545b62;
+}
+a.login{
+	color: #F595E8;
+	margin-right: 10px; 
+}
+.zelim_ovo{
+	width: 100px;
+	height: 100px;
+}
+.zelim_ovo img{
+	display: block;
+	width: 100%;
+}
+.registracija .panel-default{
+	margin-top: 20px;
+	border: 2px solid #545b62;
+	padding: 0 3%;
+}
+.registracija .btn-block{
+	background-color:#F595E8;
+}
+.registracija h3{
+	text-align: center;
+}
+.utisci{
+	
+	width: 20%;
+
+}
+.utisci p{
+	text-align: center;
+}
+.utisci img{
+	display: block;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+}
+.utisci_img{
+	width: 9%;
+}
+.utisci_img img{
+	display: block;
+	width: 100%;
+	margin-top: 25px;
+	
+}
+.registracija1 {
+	background: url("../../uploads/slike/img25.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.registracija2{
+	padding: 1% 0 20% 0;
+}
+.registracija1 .btn-info{
+	background-color: #E4E4E4;
+	border-color: #E4E4E4;
+	color: black;
+
+}
+.registracija1 .btn-info:hover{
+	background-color: grey;
+	opacity: 1.5;
+	border-color: grey;
+	color: white;
+}
+.login_form_div{
+/*	background: url('https://static9.depositphotos.com/1570716/1150/i/950/depositphotos_11501152-stock-photo-shopping-time.jpg');
+*/	
+background: url("../../uploads/slike/slika32.jpeg");
+background-size: cover;
+
+	background-repeat: no-repeat;
+}
+.login_form_div1{
+	padding-bottom: 30%;
+
+}
+.pod_kategorije{
+	margin-bottom: 20px;
+	background-color: #FFE9E3;
+	 box-shadow: 10px 10px 5px lightgrey;
+	/*background: radial-gradient( white,#FFE9E3, white,#FFE9E3);*/
+
+}
+
+.pod_kategorije a{
+	font-family: 'Kaushan Script';
+	text-decoration: none;
+	color: grey;
+	
+}
+.pod_kategorije a:hover{
+	background-color:#E4E4E4;
+	color: white;	
+}
+#suma_utisaka {
+	color: red !important;
+}
+#suma_utisaka > span{
+	color: blue;
+}
+.card-footer{
+	text-align: center;
+	background-color: #D4D4D5;
+	text-transform: uppercase;
+	color: white;
+	text-decoration:none;
+}
+a.card-footer:hover{
+	text-align: center;
+	background-color: #FFADFE;
+	text-transform: uppercase;
+	color: white !important;
+	text-decoration:none;
+}
+.slicice1{
+	width: 100%;
+	height: 295px;
+}
+
+
+.slicice1 img {
+	display: block;
+	width: 100%;
+	height: 265px;
+	position: relative;
+}
+.slicice1 .slicice2 {
+	display: block;
+	width: 100%;
+	height: 265px;
+	position: absolute;
+	padding: 10px 0;
+	top: 0;
+	left: 0;
+}
+.slicice2 img{
+	display: block;
+	width: 100%;
+	height: 245px;
+	object-fit:cover;
+}
+
+.prvi_div{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	padding: 1%;
+	font-family: 'Kaushan Script';
+}
+.drugi_div{
+	display: block;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.prvi_div h3{
+	margin-top: 40px;
+	text-align: center;
+}
+.prvi_div h5{
+	text-align: right;
+	padding-right: 1%;
+}
+.prvi_div >div{
+	height: 250px;
+}
+.btn-success{
+	background-color: #E4E4E4;
+	border-color: #E4E4E4;
+}
+.pretraga{
+	margin-top: 8px;
+}
+.pretraga input{
+	width: 50% !important;
+}
+.btn-success:hover{
+	background-color:#E4E4E4 ;
+	border-color: #E4E4E4;
+	color: black;
+}
+.prati a{
+	display: block;
+	width: 10%;
+}
+.prati span{
+	background-color: #E4E4E4;
+	font-size: 20px;
+	padding: 8px;
+	color: black;
+	border:1px solid #E4E4E4;
+	border-radius: 10%;
+}
+.ne_prati a{
+	display: block;
+	width: 10%;
+}
+.ne_prati span{
+	background-color: #FFE9E3;
+	font-size: 20px;
+	padding: 8px;
+	color: black;
+	border:1px solid #FFE9E3;
+	border-radius: 10%;
+}
+.table thead th{
+	background-color:#FFE9E3;
+}
+.ostaviUtisak{
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: #FFE9E3;left:0px; top:0px;}
+    25%  {background-color: #E4E4E4;left:200px; top:0px;}
+    50%  {background-color: #FFE9E3;left:200px; top:200px;}
+    75%  {background-color: #E4E4E4;left:200px; top:200px;}
+    100% {background-color: #FFE9E3; left:0px; top:0px;}
+
+}
+
+/* Standard syntax */
+
+@keyframes example {
+    0%   {background-color:#FFE9E3; left:0px; top:0px;}
+    25%  {background-color:#E4E4E4; left:200px; top:0px;}
+    50%  {background-color:#FFE9E3; left:200px; top:200px;}
+    75%  {background-color:#E4E4E4; left:0px; top:200px;}
+    100% {background-color:#E4E4E4; left:0px; top:0px;}
+}
+
+
+
+.glavna_slika {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 600px;
+	background-image: url("../../uploads/slike/naslovna.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*opacity: 0.9;*/
+}
+#paragrafi{
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	height: 600px;
+	width: 100%;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#paragrafi > div{
+	width: 50%;
+	float: left;
+
+}
+#paragrafi  div:last-child{
+	padding-left: 4%;
+
+}
+#paragrafi  div:first-child{
+	margin-top: 4%;
+
+}
+#paragrafi a{
+	display: block;
+	width: 140px;
+	font-size: 15px;
+	text-transform: uppercase;
+	float: left;
+	border: 1px solid #E4E4E4;
+	color: black;
+	background-color: #E4E4E4;
+	margin: 20px 2% ;
+	text-align: center;
+	padding: 1%;
+
+}
+#paragrafi a:hover{
+	opacity: 0.5;
+	text-decoration: none;
+}
+#paragrafi h1{
+	margin-left: 2%;
+	margin-top: 180px;
+	
+
+
+}
+@media only screen and (max-width: 900px){
+	#paragrafi h1{
+		display: none;
+	}
+	#paragrafi a{
+		display: none;
+	}
+
+}
+#in_slajder{
+	
+}
+#in_slajder1{
+	
+}
+#in_slajder2{
+	
+}
+.footer{
+	height: 80px;
+	background-color: #FFE9E3;
+	text-align: center;
+	padding: 20px 0 5px 0;
+	font-size: 12px;
+}
+.footer .container{
+	margin-top: 10px;
+}
+.register_1{
+	margin-left: 4%;
+	margin-top: 60px;
+}
+#pozadina1{
+	background-image:url('../../uploads/slike/slika28.jpeg');
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+
+}
+#pozadina2{
+	height: 140px;
+	width: 100%;
+	background-color: #E4E4E4;
+	margin:20px 0;
+}
+#link1{
+	display: block;
+	width: 100%;
+	background-color: #E4E4E4;
+	color: black;
+	padding: 3px;
+}
+@media only screen and (max-width: 768px){
+	.form-inline{
+		float: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
